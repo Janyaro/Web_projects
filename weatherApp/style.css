@@ -6,7 +6,7 @@
 }
 .card{
 
-    width: 90%;
+    width: 80%;
     max-width: 470px ;
     color: white;
     padding: 50px 35px;
@@ -74,4 +74,14 @@ img{
 }
 div p {
     font-size:14px;
+}
+.weatherdetail{
+    display: none;
+}
+.error{
+   font-size: 25;
+   margin-top: 10px;
+   text-align: left;
+   padding-left: 20px;
+   display: none;
 }
