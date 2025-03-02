@@ -54,3 +54,49 @@ margin-bottom: 30px;
     font-size: 14px;
     color: white;
 }
+ul li {
+    list-style: none;
+    padding: 10px 8px 10px 50px;
+    user-select: none;
+    position: relative;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/TodoApp/images/unchecked.png);
+    height: 24px;
+    width: 24px;
+    top: 10px;
+    left: 10px;
+
+
+}
+.checked{
+color: gray;
+text-decoration: line-through;
+
+}
+.checked::before{
+    background-image: url(/TodoApp/images/checked.png);
+
+}
+span{
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    /* background-color:; */
+    top: 5px;
+    height: 40px;
+    width: 40px;
+    color: #555;
+text-align: center;
+line-height: 40px;
+}
+span:hover{
+    color:white;
+    background-color: #c4b5b5;
+}
