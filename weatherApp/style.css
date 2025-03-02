@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.card{
+
+    width: 90%;
+    max-width: 470px ;
+    color: white;
+    padding: 50px 35px;
+    margin: 60px auto 0;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(135deg , #00feba , #5b548a);
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search input{
+    /* width: 100%; */
+    border: none; 
+    outline: none;
+    height: 25px;
+    border-radius: 20px;
+    flex:1;
+    cursor: pointer;
+    padding:20px;
+    margin-right: 12px;
+}
+.search button {
+    
+    outline: none;
+    border:  none;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    
+}
+img{
+    width: 20px;
+}
+.detail{
+    margin-bottom: 30px;
+}
+.detail img{
+    width: 180px;
+}
+.detail h1{
+    font-size: 35px;
+    margin: 6px;
+}
+
+.detail h2{
+    font-size: 15px;
+}
+.hum-speed{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.humadity , .speed{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.humadity img , .speed img{
+    width: 50px;
+    margin-right: 12px;
+}
+div p {
+    font-size:14px;
+}
